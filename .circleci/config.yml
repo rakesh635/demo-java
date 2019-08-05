@@ -23,7 +23,7 @@ jobs:
           background: true
           command: |
             cd sc-*
-            bin/sc --pidfile /tmp/sc.pid1 -u ${SAUCE_USERNAME} -k ${SAUCE_ACCESS_KEY} -i demo-java-tunnel --no-remove-colliding-tunnels --se-port 4445
+            bin/sc --pidfile /tmp/sc.pid1 -u rakesh635 -k 321661be-ee97-4df8-97c3-c05a48f84e54 -i demo-java-tunnel --no-remove-colliding-tunnels --se-port 4445
       - run:
           name: "Setup Maven Dependencies"
           command: |
